@@ -1,19 +1,64 @@
-# e_commerce_app
+# E-Commerce Application
 
-A new Flutter project.
+## Overview
+
+This is a Flutter-based E-Commerce application designed to provide a seamless shopping experience with features like dark and light mode switching, product browsing, and cart management.
+
+## Features
+
+- **Dark/Light Mode**: Switch between dark and light themes for better user experience.
+- **Product Listing**: Browse multiple products with detailed information.
+- **Cart Management**: Add or remove products from the cart.
+
+## Screenshots
+
+<img src="assets\E-Commerce App.png" alt="E-commerce app" width="800" height="600">
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+### Prerequisites
 
-A few resources to get you started if this is your first Flutter project:
+- [Flutter](https://flutter.dev/docs/get-started/install) (version 2.0 or higher)
+- [Dart](https://dart.dev/get-dart)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### Installation
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+1. Clone the repository:
+    ```sh
+    git clone https://github.com/your-username/ecommerce-flutter-app.git
+    cd ecommerce-flutter-app
+    ```
 
-![shop page](https://github.com/priyankanit/e_commerce_app/assets/26275749/b9ac3c7e-829f-4326-a1e9-05ad0426f928)
+2. Install dependencies:
+    ```sh
+    flutter pub get
+    ```
+
+3. Run the application:
+    ```sh
+    flutter run
+    ```
+
+## Usage
+
+- **Dark/Light Mode Toggle**: Use the switch in the settings or app bar to toggle between dark and light mode.
+- **Browse Products**: Navigate through the product list to view different items.
+- **Cart Management**: Add products to the cart and remove them as needed.
+
+## Project Structure
+
+```plaintext
+ecommerce-flutter-app/
+├── android/
+├── ios/
+├── lib/
+│   ├── models/
+│   ├── screens/
+│   ├── widgets/
+│   ├── main.dart
+├── assets/
+│   ├── images/
+│   ├── icons/
+├── test/
+├── pubspec.yaml
 
